@@ -1,4 +1,3 @@
-```markdown
 # XAMPP Port Manager
 
 ## Overview
@@ -47,19 +46,15 @@
 
 To change the HTTP port from 80 to 8080 and the HTTPS port from 443 to 8443:
 
-```bash
-Enter the current HTTP port (default: 80): 80
-Enter the new HTTP port (e.g., 8080): 8080
-Enter the current HTTPS port (default: 443): 443
-Enter the new HTTPS port (e.g., 8443): 8443
-```
+- Enter the current HTTP port (default: 80): 80
+- Enter the new HTTP port (e.g., 8080): 8080
+- Enter the current HTTPS port (default: 443): 443
+- Enter the new HTTPS port (e.g., 8443): 8443
 
 To revert these changes:
 
-```bash
-Enter the current HTTP port to revert (e.g., 8080): 8080
-Enter the current HTTPS port to revert (e.g., 8443): 8443
-```
+- Enter the current HTTP port to revert (e.g., 8080): 8080
+- Enter the current HTTPS port to revert (e.g., 8443): 8443
 
 ## Troubleshooting
 
@@ -78,8 +73,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 Created by **Sayem Muhammad Nasratullah Sarkar** on **20 August 2024**. Special thanks to the open-source community for the inspiration and support in developing this tool.
-
----
-
-Feel free to open an issue or reach out if you have any questions or suggestions. Happy coding!
-```
