@@ -1,3 +1,4 @@
+```markdown
 # XAMPP Port Manager
 
 ## Overview
@@ -51,3 +52,34 @@ Enter the current HTTP port (default: 80): 80
 Enter the new HTTP port (e.g., 8080): 8080
 Enter the current HTTPS port (default: 443): 443
 Enter the new HTTPS port (e.g., 8443): 8443
+```
+
+To revert these changes:
+
+```bash
+Enter the current HTTP port to revert (e.g., 8080): 8080
+Enter the current HTTPS port to revert (e.g., 8443): 8443
+```
+
+## Troubleshooting
+
+- **Missing Configuration Files**: Ensure the `httpd.conf` and `httpd-ssl.conf` files exist in the `C:\xampp\apache\conf` and `C:\xampp\apache\conf\extra` directories, respectively.
+- **Permission Issues**: If you encounter permission errors, make sure you are running the script as an administrator.
+- **Port Conflicts**: Ensure the new ports you choose are not already in use by another service.
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve this script or add new features, feel free to fork the repository and submit a pull request. Your input is valuable to the community.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgments
+
+Created by **Sayem Muhammad Nasratullah Sarkar** on **20 August 2024**. Special thanks to the open-source community for the inspiration and support in developing this tool.
+
+---
+
+Feel free to open an issue or reach out if you have any questions or suggestions. Happy coding!
+```
